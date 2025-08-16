@@ -1,11 +1,11 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Telescope, Star, Target, Users, BookOpen, Zap } from 'lucide-react'
+import { Eye, Star, Target, Users, BookOpen, Zap } from 'lucide-react'
 
 export default function Services() {
   const services = [
     {
-      icon: Telescope,
+      icon: Eye,
       title: "Consultoria em Telescópios",
       description: "Orientação especializada na escolha do telescópio ideal baseada no seu nível de experiência, orçamento e objetivos astronômicos específicos.",
       features: [

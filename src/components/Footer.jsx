@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Telescope, Star, Mail, Phone, MapPin, ExternalLink } from 'lucide-react'
+import { Eye, Star, Mail, Phone, MapPin, ExternalLink } from 'lucide-react'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
