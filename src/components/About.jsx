@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Telescope, Star, Award, Users, Target, Lightbulb } from 'lucide-react'
+import { Eye, Star, Award, Users, Target, Lightbulb } from 'lucide-react'
 
 export default function About() {
   const achievements = [
@@ -11,7 +11,7 @@ export default function About() {
       description: "Mais de uma década dedicada ao estudo e observação astronômica"
     },
     {
-      icon: Telescope,
+      icon: Eye,
       number: "50+",
       label: "Telescópios Analisados",
       description: "Conhecimento profundo sobre diferentes tipos e marcas de equipamentos"

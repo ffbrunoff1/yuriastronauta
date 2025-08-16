@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Telescope, Star, Zap, ChevronDown } from 'lucide-react'
+import { Eye, Star, Zap, ChevronDown } from 'lucide-react'
 
 export default function Hero() {
   const scrollToNext = () => {
@@ -65,7 +65,7 @@ export default function Hero() {
         animate="animate"
         transition={{ delay: 2 }}
       >
-        <Telescope size={60} />
+        <Eye size={60} />
       </motion.div>
 
       <motion.div
@@ -185,7 +185,7 @@ export default function Hero() {
                   animate="animate"
                 >
                   <div className="w-32 h-32 lg:w-40 lg:h-40 rounded-full bg-white/10 backdrop-blur-lg border border-white/20 flex items-center justify-center">
-                    <Telescope className="w-16 h-16 lg:w-20 lg:h-20 text-accent-400" />
+                    <Eye className="w-16 h-16 lg:w-20 lg:h-20 text-accent-400" />
                   </div>
                 </motion.div>
 
